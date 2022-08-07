@@ -38,7 +38,7 @@ function initializeClock(id, endtime) {
       c.style.display = "none";
       var text = document.getElementById('message');
       var title = document.getElementById('title');
-      text.innerHTML = "Finally! Good Riddance DTU"
+      text.innerHTML = "Nepal is where I be!!!"
       title.style.display = "none";
     }
     if (t.days <= 0) {
@@ -64,5 +64,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("Dec 17, 2021 18:00:00");
+var deadline = new Date("Sep 8, 2022 12:00:00");
 initializeClock('clockdiv', deadline);
